@@ -4,6 +4,6 @@ for i in arr:
   sum +=i
 print(sum)
 
-#for i in range(3):
-    #for j in range(3):
-        #print(i, j, sep="-")
+for i in range(3):
+    for j in range(3):
+        print(i, j, sep="-")
