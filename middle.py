@@ -26,3 +26,17 @@ print([*test, 4, 5])  # [1, 2, 3, 4, 5]
 test = {'apple': 'red', 'remon': 'yellow'}
 
 print({**test,'cherrie': 'pink'}) # {'apple': 'red', 'remon': 'yellow', 'cherrie': 'pink'}
+
+test = 0
+
+if test == 0:
+    print('NG')
+else:
+    print('OK')
+
+test = 0
+
+if not test:
+    print('NG')
+else:
+    print('OK')
