@@ -40,3 +40,9 @@ if not test:
     print('NG')
 else:
     print('OK')
+
+test = 'my name is taro' + '.'
+test2 = test
+print(id(test)) # 140643210401160
+print(id(test2))
+
