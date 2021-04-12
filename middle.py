@@ -46,3 +46,27 @@ test2 = test
 print(id(test)) # 140643210401160
 print(id(test2))
 
+test = None
+test2 = None
+print(id(test)) # 9107296
+print(id(test2)) # 9107296
+
+test = 'my name is taro' + '.'
+test2 = 'my name is taro' + '.'
+print(id(test)) # 140196053288256
+print(id(test2)) # 140196053288328
+
+print(test) # my name is taro.
+print(test2) # my name is taro.
+
+if test is test2:
+    print('same')
+else:
+    # こちらが出力される
+    print('not same')
+
+if test == test2:
+    # こちらが出力される
+    print('same')
+else:
+    print('not same')
